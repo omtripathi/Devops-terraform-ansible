@@ -12,7 +12,7 @@ region = "us-west-1"
 }
 resource "aws_instance" "myawsserver" {
   ami = "ami-04d1dcfb793f6fa37"
-  instance_type = "t2.micro"
+  instance_type = "t2.nano"
   key_name = "om-import"
 
   tags = {
